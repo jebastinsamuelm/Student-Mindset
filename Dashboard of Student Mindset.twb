@@ -1,0 +1,2059 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.22.0812.0353                               -->
+<workbook original-version='18.1' source-build='2022.2.1 (20222.22.0812.0353)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='STUDENT MINDSET (STUDENT MINDSET)' inline='true' name='federated.03l768y13sgg481blrb9v0pc5yfq' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='STUDENT MINDSET' name='excel-direct.1dlmpra092lfb412vxxou1ihpddt'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='E:/Project/Student Mindset/STUDENT MINDSET.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1dlmpra092lfb412vxxou1ihpddt' name='STUDENT MINDSET' table='[&apos;STUDENT MINDSET$&apos;]' type='table'>
+          <columns gridOrigin='A1:T424:no:A1:T424:0' header='yes' outcome='2'>
+            <column datatype='string' name='Timestamp' ordinal='0' />
+            <column datatype='string' name='NAME (IN CAPITAL)' ordinal='1' />
+            <column datatype='string' name='GENDER' ordinal='2' />
+            <column datatype='integer' name='AGE' ordinal='3' />
+            <column datatype='string' name='BATCH' ordinal='4' />
+            <column datatype='string' name='PLACE' ordinal='5' />
+            <column datatype='string' name='STREAM' ordinal='6' />
+            <column datatype='string' name='DO YOU HAVE ANY BACKLOGS(ARREARS) ?' ordinal='7' />
+            <column datatype='string' name='ARE YOU A HOSTEL STUDENT ?' ordinal='8' />
+            <column datatype='string' name='RATE OUR COLLEGE PLACEMENT ?' ordinal='9' />
+            <column datatype='string' name='ARE YOU A PART TIME WORKER ?' ordinal='10' />
+            <column datatype='string' name='PART TIME INCOME' ordinal='11' />
+            <column datatype='string' name='NEXT STEP' ordinal='12' />
+            <column datatype='string' name='PLACEMENT PREFERENCE' ordinal='13' />
+            <column datatype='string' name='WHICH PLACE  DO YOU PREFER TO WORK ?' ordinal='14' />
+            <column datatype='string' name='WHICH DOMAIN YOU CHOOSE ?' ordinal='15' />
+            <column datatype='string' name='WHICH INSTITUTE YOU CHOOSE ?' ordinal='16' />
+            <column datatype='string' name='PLACE OF THE INSTITUTION' ordinal='17' />
+            <column datatype='string' name='WHICH KIND OF BUSINESS' ordinal='18' />
+            <column datatype='string' name='REASON FOR CHOOSING RVS ?' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1dlmpra092lfb412vxxou1ihpddt' name='STUDENT MINDSET' table='[&apos;STUDENT MINDSET$&apos;]' type='table'>
+          <columns gridOrigin='A1:T424:no:A1:T424:0' header='yes' outcome='2'>
+            <column datatype='string' name='Timestamp' ordinal='0' />
+            <column datatype='string' name='NAME (IN CAPITAL)' ordinal='1' />
+            <column datatype='string' name='GENDER' ordinal='2' />
+            <column datatype='integer' name='AGE' ordinal='3' />
+            <column datatype='string' name='BATCH' ordinal='4' />
+            <column datatype='string' name='PLACE' ordinal='5' />
+            <column datatype='string' name='STREAM' ordinal='6' />
+            <column datatype='string' name='DO YOU HAVE ANY BACKLOGS(ARREARS) ?' ordinal='7' />
+            <column datatype='string' name='ARE YOU A HOSTEL STUDENT ?' ordinal='8' />
+            <column datatype='string' name='RATE OUR COLLEGE PLACEMENT ?' ordinal='9' />
+            <column datatype='string' name='ARE YOU A PART TIME WORKER ?' ordinal='10' />
+            <column datatype='string' name='PART TIME INCOME' ordinal='11' />
+            <column datatype='string' name='NEXT STEP' ordinal='12' />
+            <column datatype='string' name='PLACEMENT PREFERENCE' ordinal='13' />
+            <column datatype='string' name='WHICH PLACE  DO YOU PREFER TO WORK ?' ordinal='14' />
+            <column datatype='string' name='WHICH DOMAIN YOU CHOOSE ?' ordinal='15' />
+            <column datatype='string' name='WHICH INSTITUTE YOU CHOOSE ?' ordinal='16' />
+            <column datatype='string' name='PLACE OF THE INSTITUTION' ordinal='17' />
+            <column datatype='string' name='WHICH KIND OF BUSINESS' ordinal='18' />
+            <column datatype='string' name='REASON FOR CHOOSING RVS ?' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:T424:no:A1:T424:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timestamp</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Timestamp]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>Timestamp</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NAME (IN CAPITAL)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[NAME (IN CAPITAL)]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>NAME (IN CAPITAL)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GENDER</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[GENDER]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>GENDER</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AGE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AGE]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>AGE</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BATCH</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[BATCH]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>BATCH</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PLACE</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PLACE]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>PLACE</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STREAM</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[STREAM]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>STREAM</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DO YOU HAVE ANY BACKLOGS(ARREARS) ?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DO YOU HAVE ANY BACKLOGS(ARREARS) ?]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>DO YOU HAVE ANY BACKLOGS(ARREARS) ?</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ARE YOU A HOSTEL STUDENT ?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ARE YOU A HOSTEL STUDENT ?]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>ARE YOU A HOSTEL STUDENT ?</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RATE OUR COLLEGE PLACEMENT ?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[RATE OUR COLLEGE PLACEMENT ?]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>RATE OUR COLLEGE PLACEMENT ?</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ARE YOU A PART TIME WORKER ?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ARE YOU A PART TIME WORKER ?]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>ARE YOU A PART TIME WORKER ?</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PART TIME INCOME</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PART TIME INCOME]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>PART TIME INCOME</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NEXT STEP</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[NEXT STEP]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>NEXT STEP</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PLACEMENT PREFERENCE</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PLACEMENT PREFERENCE]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>PLACEMENT PREFERENCE</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WHICH PLACE  DO YOU PREFER TO WORK ?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WHICH PLACE  DO YOU PREFER TO WORK ?]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>WHICH PLACE  DO YOU PREFER TO WORK ?</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WHICH DOMAIN YOU CHOOSE ?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WHICH DOMAIN YOU CHOOSE ?]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>WHICH DOMAIN YOU CHOOSE ?</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WHICH INSTITUTE YOU CHOOSE ?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WHICH INSTITUTE YOU CHOOSE ?]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>WHICH INSTITUTE YOU CHOOSE ?</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PLACE OF THE INSTITUTION</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PLACE OF THE INSTITUTION]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>PLACE OF THE INSTITUTION</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WHICH KIND OF BUSINESS</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WHICH KIND OF BUSINESS]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>WHICH KIND OF BUSINESS</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>REASON FOR CHOOSING RVS ?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[REASON FOR CHOOSING RVS ?]</local-name>
+            <parent-name>[STUDENT MINDSET]</parent-name>
+            <remote-alias>REASON FOR CHOOSING RVS ?</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Are You A Hostel Student ?' datatype='string' name='[ARE YOU A HOSTEL STUDENT ?]' role='dimension' type='nominal' />
+      <column caption='Are You A Part Time Worker ?' datatype='string' name='[ARE YOU A PART TIME WORKER ?]' role='dimension' type='nominal' />
+      <column caption='Batch' datatype='string' name='[BATCH]' role='dimension' type='nominal' />
+      <column caption='Do You Have Any Backlogs(Arrears) ?' datatype='string' name='[DO YOU HAVE ANY BACKLOGS(ARREARS) ?]' role='dimension' type='nominal' />
+      <column caption='Gender' datatype='string' name='[GENDER]' role='dimension' type='nominal' />
+      <column caption='Name (In Capital)' datatype='string' name='[NAME (IN CAPITAL)]' role='dimension' type='nominal' />
+      <column caption='Next Step' datatype='string' name='[NEXT STEP]' role='dimension' type='nominal' />
+      <column caption='Part Time Income' datatype='string' name='[PART TIME INCOME]' role='dimension' type='nominal' />
+      <column caption='Place Of The Institution' datatype='string' name='[PLACE OF THE INSTITUTION]' role='dimension' type='nominal' />
+      <column caption='Placement Preference' datatype='string' name='[PLACEMENT PREFERENCE]' role='dimension' type='nominal' />
+      <column caption='Place' datatype='string' name='[PLACE]' role='dimension' type='nominal' />
+      <column caption='Rate Our College Placement ?' datatype='string' name='[RATE OUR COLLEGE PLACEMENT ?]' role='dimension' type='nominal' />
+      <column caption='Reason For Choosing Rvs ?' datatype='string' name='[REASON FOR CHOOSING RVS ?]' role='dimension' type='nominal' />
+      <column caption='Stream' datatype='string' name='[STREAM]' role='dimension' type='nominal' />
+      <column caption='Which Domain You Choose ?' datatype='string' name='[WHICH DOMAIN YOU CHOOSE ?]' role='dimension' type='nominal' />
+      <column caption='Which Institute You Choose ?' datatype='string' name='[WHICH INSTITUTE YOU CHOOSE ?]' role='dimension' type='nominal' />
+      <column caption='Which Kind Of Business' datatype='string' name='[WHICH KIND OF BUSINESS]' role='dimension' type='nominal' />
+      <column caption='Which Place  Do You Prefer To Work ?' datatype='string' name='[WHICH PLACE  DO YOU PREFER TO WORK ?]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='STUDENT MINDSET' datatype='table' name='[__tableau_internal_object_id__].[STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A]' role='measure' type='quantitative' />
+      <column-instance column='[BATCH]' derivation='None' name='[none:BATCH:nk]' pivot='key' type='nominal' />
+      <column-instance column='[NEXT STEP]' derivation='None' name='[none:NEXT STEP:nk]' pivot='key' type='nominal' />
+      <column-instance column='[PLACE OF THE INSTITUTION]' derivation='None' name='[none:PLACE OF THE INSTITUTION:nk]' pivot='key' type='nominal' />
+      <column-instance column='[PLACEMENT PREFERENCE]' derivation='None' name='[none:PLACEMENT PREFERENCE:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Batch)' hidden='true' name='[Action (Batch)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[BATCH]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Gender,Next Step)' hidden='true' name='[Action (Gender,Next Step)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[GENDER]' />
+          <groupfilter function='level-members' level='[NEXT STEP]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Place Of The Institution)' hidden='true' name='[Action (Place Of The Institution)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[PLACE OF THE INSTITUTION]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Rate Our College Placement ?)' hidden='true' name='[Action (Rate Our College Placement ?)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[RATE OUR COLLEGE PLACEMENT ?]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:NEXT STEP:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;BUSINESS&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;WORK&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;HIGHER STUDIES&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:PLACEMENT PREFERENCE:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;OFF CAMPUS&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ON CAMPUS&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:PLACE OF THE INSTITUTION:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;TAMIL NADU&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;INDIA&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;COIMBATORE&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ABROAD&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:BATCH:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;2019 - 2022&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;2020 - 2023&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='STUDENT MINDSET' id='STUDENT MINDSET_E3C435B5E1C14F31A44D269301BE9D1A'>
+            <properties context=''>
+              <relation connection='excel-direct.1dlmpra092lfb412vxxou1ihpddt' name='STUDENT MINDSET' table='[&apos;STUDENT MINDSET$&apos;]' type='table'>
+                <columns gridOrigin='A1:T424:no:A1:T424:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Timestamp' ordinal='0' />
+                  <column datatype='string' name='NAME (IN CAPITAL)' ordinal='1' />
+                  <column datatype='string' name='GENDER' ordinal='2' />
+                  <column datatype='integer' name='AGE' ordinal='3' />
+                  <column datatype='string' name='BATCH' ordinal='4' />
+                  <column datatype='string' name='PLACE' ordinal='5' />
+                  <column datatype='string' name='STREAM' ordinal='6' />
+                  <column datatype='string' name='DO YOU HAVE ANY BACKLOGS(ARREARS) ?' ordinal='7' />
+                  <column datatype='string' name='ARE YOU A HOSTEL STUDENT ?' ordinal='8' />
+                  <column datatype='string' name='RATE OUR COLLEGE PLACEMENT ?' ordinal='9' />
+                  <column datatype='string' name='ARE YOU A PART TIME WORKER ?' ordinal='10' />
+                  <column datatype='string' name='PART TIME INCOME' ordinal='11' />
+                  <column datatype='string' name='NEXT STEP' ordinal='12' />
+                  <column datatype='string' name='PLACEMENT PREFERENCE' ordinal='13' />
+                  <column datatype='string' name='WHICH PLACE  DO YOU PREFER TO WORK ?' ordinal='14' />
+                  <column datatype='string' name='WHICH DOMAIN YOU CHOOSE ?' ordinal='15' />
+                  <column datatype='string' name='WHICH INSTITUTE YOU CHOOSE ?' ordinal='16' />
+                  <column datatype='string' name='PLACE OF THE INSTITUTION' ordinal='17' />
+                  <column datatype='string' name='WHICH KIND OF BUSINESS' ordinal='18' />
+                  <column datatype='string' name='REASON FOR CHOOSING RVS ?' ordinal='19' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 2 (generated)' name='[Action2_6E25C470EDAF4CC9B0A3B54145651392]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Student Mindset Dashboard' type='sheet' worksheet='Batch' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Student Mindset Dashboard' />
+      </command>
+    </action>
+    <action caption='Filter 1 (generated)' name='[Action2_8724F92458BA4B4C992A85777ADA8F6C]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Student Mindset Dashboard' type='sheet' worksheet='Next Step by Gender' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Student Mindset Dashboard' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3_24AF7795AD77461EAA3035C4CE96D242]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Student Mindset Dashboard' type='sheet' worksheet='Place of the Institution' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Student Mindset Dashboard' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Batch'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Sylfaen'>BATCH</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='STUDENT MINDSET (STUDENT MINDSET)' name='federated.03l768y13sgg481blrb9v0pc5yfq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03l768y13sgg481blrb9v0pc5yfq'>
+            <column caption='Batch' datatype='string' name='[BATCH]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[GENDER]' role='dimension' type='nominal' />
+            <column caption='Next Step' datatype='string' name='[NEXT STEP]' role='dimension' type='nominal' />
+            <column caption='Place Of The Institution' datatype='string' name='[PLACE OF THE INSTITUTION]' role='dimension' type='nominal' />
+            <column-instance column='[GENDER]' derivation='Count' name='[cnt:GENDER:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[BATCH]' derivation='None' name='[none:BATCH:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Gender,Next Step)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2_8724F92458BA4B4C992A85777ADA8F6C]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[GENDER]' />
+              <groupfilter function='level-members' level='[NEXT STEP]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Place Of The Institution)]'>
+            <groupfilter function='level-members' level='[PLACE OF THE INSTITUTION]' user:ui-action-filter='[Action3_24AF7795AD77461EAA3035C4CE96D242]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Gender,Next Step)]</column>
+            <column>[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Place Of The Institution)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.03l768y13sgg481blrb9v0pc5yfq].[cnt:GENDER:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.03l768y13sgg481blrb9v0pc5yfq].[none:BATCH:nk]' />
+              <wedge-size column='[federated.03l768y13sgg481blrb9v0pc5yfq].[cnt:GENDER:qk]' />
+              <size column='[federated.03l768y13sgg481blrb9v0pc5yfq].[cnt:GENDER:qk]' />
+              <text column='[federated.03l768y13sgg481blrb9v0pc5yfq].[none:BATCH:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{46E5F6DE-01B0-481F-86D6-A334C4C5A4CA}' />
+    </worksheet>
+    <worksheet name='College Placement Rating'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Sylfaen'>College Placement Rating</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='STUDENT MINDSET (STUDENT MINDSET)' name='federated.03l768y13sgg481blrb9v0pc5yfq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03l768y13sgg481blrb9v0pc5yfq'>
+            <column caption='Batch' datatype='string' name='[BATCH]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[GENDER]' role='dimension' type='nominal' />
+            <column caption='Name (In Capital)' datatype='string' name='[NAME (IN CAPITAL)]' role='dimension' type='nominal' />
+            <column caption='Next Step' datatype='string' name='[NEXT STEP]' role='dimension' type='nominal' />
+            <column caption='Place Of The Institution' datatype='string' name='[PLACE OF THE INSTITUTION]' role='dimension' type='nominal' />
+            <column caption='Rate Our College Placement ?' datatype='string' name='[RATE OUR COLLEGE PLACEMENT ?]' role='dimension' type='nominal' />
+            <column-instance column='[NAME (IN CAPITAL)]' derivation='Count' name='[cnt:NAME (IN CAPITAL):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NEXT STEP]' derivation='None' name='[none:NEXT STEP:nk]' pivot='key' type='nominal' />
+            <column-instance column='[RATE OUR COLLEGE PLACEMENT ?]' derivation='None' name='[none:RATE OUR COLLEGE PLACEMENT ?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[NAME (IN CAPITAL)]' derivation='Count' name='[pcto:cnt:NAME (IN CAPITAL):qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.03l768y13sgg481blrb9v0pc5yfq].[none:RATE OUR COLLEGE PLACEMENT ?:nk]' ordering-type='Field' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Batch)]'>
+            <groupfilter function='level-members' level='[BATCH]' user:ui-action-filter='[Action2_6E25C470EDAF4CC9B0A3B54145651392]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Gender,Next Step)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2_8724F92458BA4B4C992A85777ADA8F6C]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[GENDER]' />
+              <groupfilter function='level-members' level='[NEXT STEP]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Place Of The Institution)]'>
+            <groupfilter function='level-members' level='[PLACE OF THE INSTITUTION]' user:ui-action-filter='[Action3_24AF7795AD77461EAA3035C4CE96D242]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03l768y13sgg481blrb9v0pc5yfq].[none:NEXT STEP:nk]'>
+            <groupfilter function='level-members' level='[none:NEXT STEP:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:NEXT STEP:nk]</column>
+            <column>[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Gender,Next Step)]</column>
+            <column>[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Batch)]</column>
+            <column>[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Place Of The Institution)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.03l768y13sgg481blrb9v0pc5yfq].[pcto:cnt:NAME (IN CAPITAL):qk:2]' palette='red_gold_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.03l768y13sgg481blrb9v0pc5yfq].[cnt:NAME (IN CAPITAL):qk]' />
+              <text column='[federated.03l768y13sgg481blrb9v0pc5yfq].[none:RATE OUR COLLEGE PLACEMENT ?:nk]' />
+              <text column='[federated.03l768y13sgg481blrb9v0pc5yfq].[cnt:NAME (IN CAPITAL):qk]' />
+              <color column='[federated.03l768y13sgg481blrb9v0pc5yfq].[pcto:cnt:NAME (IN CAPITAL):qk:2]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C54A2E21-5FA3-442B-8EC2-8F07B538D5A3}' />
+    </worksheet>
+    <worksheet name='Next Step by Gender'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Sylfaen'>Next Steps by Gender Wise</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='STUDENT MINDSET (STUDENT MINDSET)' name='federated.03l768y13sgg481blrb9v0pc5yfq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03l768y13sgg481blrb9v0pc5yfq'>
+            <column caption='Batch' datatype='string' name='[BATCH]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[GENDER]' role='dimension' type='nominal' />
+            <column caption='Name (In Capital)' datatype='string' name='[NAME (IN CAPITAL)]' role='dimension' type='nominal' />
+            <column caption='Next Step' datatype='string' name='[NEXT STEP]' role='dimension' type='nominal' />
+            <column caption='Place Of The Institution' datatype='string' name='[PLACE OF THE INSTITUTION]' role='dimension' type='nominal' />
+            <column-instance column='[NAME (IN CAPITAL)]' derivation='Count' name='[cnt:NAME (IN CAPITAL):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GENDER]' derivation='None' name='[none:GENDER:nk]' pivot='key' type='nominal' />
+            <column-instance column='[NEXT STEP]' derivation='None' name='[none:NEXT STEP:nk]' pivot='key' type='nominal' />
+            <column-instance column='[NAME (IN CAPITAL)]' derivation='Count' name='[pcto:cnt:NAME (IN CAPITAL):qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Batch)]'>
+            <groupfilter function='level-members' level='[BATCH]' user:ui-action-filter='[Action2_6E25C470EDAF4CC9B0A3B54145651392]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Place Of The Institution)]'>
+            <groupfilter function='level-members' level='[PLACE OF THE INSTITUTION]' user:ui-action-filter='[Action3_24AF7795AD77461EAA3035C4CE96D242]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Batch)]</column>
+            <column>[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Place Of The Institution)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.03l768y13sgg481blrb9v0pc5yfq].[none:GENDER:nk]' />
+              <text column='[federated.03l768y13sgg481blrb9v0pc5yfq].[pcto:cnt:NAME (IN CAPITAL):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.03l768y13sgg481blrb9v0pc5yfq].[cnt:NAME (IN CAPITAL):qk]</rows>
+        <cols>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:NEXT STEP:nk]</cols>
+      </table>
+      <simple-id uuid='{552B0C05-0066-4DA2-A2E5-3C21BF430925}' />
+    </worksheet>
+    <worksheet name='Place of the Institution'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Sylfaen'>Place of the Institution</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='STUDENT MINDSET (STUDENT MINDSET)' name='federated.03l768y13sgg481blrb9v0pc5yfq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03l768y13sgg481blrb9v0pc5yfq'>
+            <column caption='Batch' datatype='string' name='[BATCH]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[GENDER]' role='dimension' type='nominal' />
+            <column caption='Next Step' datatype='string' name='[NEXT STEP]' role='dimension' type='nominal' />
+            <column caption='Place Of The Institution' datatype='string' name='[PLACE OF THE INSTITUTION]' role='dimension' type='nominal' />
+            <column-instance column='[PLACE OF THE INSTITUTION]' derivation='Count' name='[cnt:PLACE OF THE INSTITUTION:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PLACE OF THE INSTITUTION]' derivation='None' name='[none:PLACE OF THE INSTITUTION:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Batch)]'>
+            <groupfilter function='level-members' level='[BATCH]' user:ui-action-filter='[Action2_6E25C470EDAF4CC9B0A3B54145651392]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Gender,Next Step)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2_8724F92458BA4B4C992A85777ADA8F6C]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[GENDER]' />
+              <groupfilter function='level-members' level='[NEXT STEP]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Gender,Next Step)]</column>
+            <column>[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Batch)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='444' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.03l768y13sgg481blrb9v0pc5yfq].[cnt:PLACE OF THE INSTITUTION:qk]' />
+              <color column='[federated.03l768y13sgg481blrb9v0pc5yfq].[none:PLACE OF THE INSTITUTION:nk]' />
+              <text column='[federated.03l768y13sgg481blrb9v0pc5yfq].[none:PLACE OF THE INSTITUTION:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{03FA183E-AAD8-494C-8308-EBA19548319C}' />
+    </worksheet>
+    <worksheet name='Stream wise Next Step '>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Sylfaen'>Stream Wise Next Step</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='STUDENT MINDSET (STUDENT MINDSET)' name='federated.03l768y13sgg481blrb9v0pc5yfq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03l768y13sgg481blrb9v0pc5yfq'>
+            <column caption='Batch' datatype='string' name='[BATCH]' role='dimension' type='nominal' />
+            <column caption='Gender' datatype='string' name='[GENDER]' role='dimension' type='nominal' />
+            <column caption='Name (In Capital)' datatype='string' name='[NAME (IN CAPITAL)]' role='dimension' type='nominal' />
+            <column caption='Next Step' datatype='string' name='[NEXT STEP]' role='dimension' type='nominal' />
+            <column caption='Place Of The Institution' datatype='string' name='[PLACE OF THE INSTITUTION]' role='dimension' type='nominal' />
+            <column caption='Stream' datatype='string' name='[STREAM]' role='dimension' type='nominal' />
+            <column-instance column='[NAME (IN CAPITAL)]' derivation='Count' name='[cnt:NAME (IN CAPITAL):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NEXT STEP]' derivation='None' name='[none:NEXT STEP:nk]' pivot='key' type='nominal' />
+            <column-instance column='[STREAM]' derivation='None' name='[none:STREAM:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Batch)]'>
+            <groupfilter function='level-members' level='[BATCH]' user:ui-action-filter='[Action2_6E25C470EDAF4CC9B0A3B54145651392]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Gender,Next Step)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action2_8724F92458BA4B4C992A85777ADA8F6C]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[GENDER]' />
+              <groupfilter function='level-members' level='[NEXT STEP]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Place Of The Institution)]'>
+            <groupfilter function='level-members' level='[PLACE OF THE INSTITUTION]' user:ui-action-filter='[Action3_24AF7795AD77461EAA3035C4CE96D242]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Gender,Next Step)]</column>
+            <column>[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Batch)]</column>
+            <column>[federated.03l768y13sgg481blrb9v0pc5yfq].[Action (Place Of The Institution)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='height-header' value='18' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.03l768y13sgg481blrb9v0pc5yfq].[cnt:NAME (IN CAPITAL):qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.03l768y13sgg481blrb9v0pc5yfq].[cnt:NAME (IN CAPITAL):qk]' />
+              <text column='[federated.03l768y13sgg481blrb9v0pc5yfq].[cnt:NAME (IN CAPITAL):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:NEXT STEP:nk]</rows>
+        <cols>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:STREAM:nk]</cols>
+      </table>
+      <simple-id uuid='{677EB90E-BB8B-4B58-920C-D1DC911F6C4C}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Student Mindset Dashboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#e15759'>Dashboard of Student Mindset</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='800' maxwidth='1600' minheight='800' minwidth='1600' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='37' param='vert' type-v2='layout-flow' w='99000' x='500' y='1000'>
+            <zone h='6125' id='38' type-v2='title' w='99000' x='500' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='solid' />
+                <format attr='border-width' value='3' />
+                <format attr='margin' value='4' />
+                <format attr='background-color' value='#f9e9e0' />
+              </zone-style>
+            </zone>
+            <zone h='91875' id='23' param='horz' type-v2='layout-flow' w='99000' x='500' y='7125'>
+              <zone h='91875' id='21' type-v2='layout-basic' w='89000' x='500' y='7125'>
+                <zone h='91875' id='18' param='vert' type-v2='layout-flow' w='42375' x='47125' y='7125'>
+                  <zone fixed-size='418' h='53250' id='32' is-fixed='true' name='College Placement Rating' w='42375' x='47125' y='7125'>
+                    <layout-cache type-h='cell' type-w='fixed' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='2' />
+                      <format attr='margin' value='4' />
+                      <format attr='background-color' value='#355e95' />
+                    </zone-style>
+                  </zone>
+                  <zone h='38625' id='26' name='Next Step by Gender' w='42375' x='47125' y='60375'>
+                    <layout-cache minheight='208' type-h='scalable' type-w='fixed' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='2' />
+                      <format attr='margin' value='4' />
+                      <format attr='background-color' value='#355e95' />
+                    </zone-style>
+                  </zone>
+                </zone>
+                <zone h='40930' id='20' name='Batch' w='17937' x='500' y='7125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='2' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#355e95' />
+                  </zone-style>
+                </zone>
+                <zone h='50945' id='30' name='Stream wise Next Step ' w='46625' x='500' y='48055'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='2' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#355e95' />
+                  </zone-style>
+                </zone>
+                <zone h='40930' id='34' name='Place of the Institution' w='28688' x='18437' y='7125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='2' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#355e95' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='160' h='91875' id='22' is-fixed='true' param='vert' type-v2='layout-flow' w='10000' x='89500' y='7125'>
+                <zone h='9250' id='24' name='Batch' pane-specification-id='0' param='[federated.03l768y13sgg481blrb9v0pc5yfq].[none:BATCH:nk]' type-v2='color' w='10000' x='89500' y='7125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='6625' id='25' name='Batch' pane-specification-id='0' param='[federated.03l768y13sgg481blrb9v0pc5yfq].[cnt:GENDER:qk]' type-v2='size' w='10000' x='89500' y='16375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='9250' id='27' name='Next Step by Gender' pane-specification-id='0' param='[federated.03l768y13sgg481blrb9v0pc5yfq].[none:GENDER:nk]' type-v2='color' w='10000' x='89500' y='23000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='9375' id='31' name='Stream wise Next Step ' pane-specification-id='0' param='[federated.03l768y13sgg481blrb9v0pc5yfq].[cnt:NAME (IN CAPITAL):qk]' type-v2='color' w='10000' x='89500' y='32250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='9375' id='33' name='College Placement Rating' pane-specification-id='0' param='[federated.03l768y13sgg481blrb9v0pc5yfq].[pcto:cnt:NAME (IN CAPITAL):qk:2]' type-v2='color' w='10000' x='89500' y='41625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='132' h='17500' id='35' is-fixed='true' name='Place of the Institution' pane-specification-id='0' param='[federated.03l768y13sgg481blrb9v0pc5yfq].[none:PLACE OF THE INSTITUTION:nk]' type-v2='color' w='10000' x='89500' y='51000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone fixed-size='204' h='24000' id='39' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/jebas/Downloads/download.jpeg' type-v2='bitmap' w='10625' x='89250' y='70125' />
+        <zone forceUpdate='true' h='3750' id='42' type-v2='text' w='12875' x='88188' y='94375'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Sitka Small Semibold' fontsize='8'>JEBASTIN SAMUEL M</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#e15759'>Dashboard of Student Mindset</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='2200' minheight='2200' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='48' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='47' param='vert' type-v2='layout-flow' w='99000' x='500' y='1000'>
+                <zone h='6125' id='38' type-v2='title' w='99000' x='500' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='3' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f9e9e0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='40930' id='20' is-fixed='true' name='Batch' w='17937' x='500' y='7125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='2' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#355e95' />
+                  </zone-style>
+                </zone>
+                <zone h='9250' id='24' name='Batch' pane-specification-id='0' param='[federated.03l768y13sgg481blrb9v0pc5yfq].[none:BATCH:nk]' type-v2='color' w='10000' x='89500' y='7125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6625' id='25' name='Batch' pane-specification-id='0' param='[federated.03l768y13sgg481blrb9v0pc5yfq].[cnt:GENDER:qk]' type-v2='size' w='10000' x='89500' y='16375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='40930' id='34' is-fixed='true' name='Place of the Institution' w='28688' x='18437' y='7125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='2' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#355e95' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='132' h='17500' id='35' name='Place of the Institution' pane-specification-id='0' param='[federated.03l768y13sgg481blrb9v0pc5yfq].[none:PLACE OF THE INSTITUTION:nk]' type-v2='color' w='10000' x='89500' y='51000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='53250' id='32' is-fixed='true' name='College Placement Rating' w='42375' x='47125' y='7125'>
+                  <layout-cache type-h='cell' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='2' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#355e95' />
+                  </zone-style>
+                </zone>
+                <zone h='9375' id='33' name='College Placement Rating' pane-specification-id='0' param='[federated.03l768y13sgg481blrb9v0pc5yfq].[pcto:cnt:NAME (IN CAPITAL):qk:2]' type-v2='color' w='10000' x='89500' y='41625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='50945' id='30' is-fixed='true' name='Stream wise Next Step ' w='46625' x='500' y='48055'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='2' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#355e95' />
+                  </zone-style>
+                </zone>
+                <zone h='9375' id='31' name='Stream wise Next Step ' pane-specification-id='0' param='[federated.03l768y13sgg481blrb9v0pc5yfq].[cnt:NAME (IN CAPITAL):qk]' type-v2='color' w='10000' x='89500' y='32250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='38625' id='26' is-fixed='true' name='Next Step by Gender' w='42375' x='47125' y='60375'>
+                  <layout-cache minheight='208' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='2' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#355e95' />
+                  </zone-style>
+                </zone>
+                <zone h='9250' id='27' name='Next Step by Gender' pane-specification-id='0' param='[federated.03l768y13sgg481blrb9v0pc5yfq].[none:GENDER:nk]' type-v2='color' w='10000' x='89500' y='23000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='192' h='24000' id='39' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/jebas/Downloads/download.jpeg' type-v2='bitmap' w='10625' x='89250' y='70125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3750' id='42' type-v2='text' w='12875' x='88188' y='94375'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Sitka Small Semibold' fontsize='8'>JEBASTIN SAMUEL M</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{EC3ACDD3-EC09-44CA-8756-EFB2812C511A}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Next Step by Gender'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.03l768y13sgg481blrb9v0pc5yfq].[none:GENDER:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:GENDER:nk]</field>
+            <field>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:NAME (IN CAPITAL):nk]</field>
+            <field>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:NEXT STEP:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D3520DFF-CB9F-4985-A68D-75D8C2447125}' />
+    </window>
+    <window class='worksheet' name='Batch'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.03l768y13sgg481blrb9v0pc5yfq].[none:BATCH:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.03l768y13sgg481blrb9v0pc5yfq].[cnt:GENDER:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:BATCH:nk]</field>
+            <field>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:GENDER:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{ACED8A2E-0738-4653-822F-3AD5F4E2178B}' />
+    </window>
+    <window class='worksheet' name='Place of the Institution'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.03l768y13sgg481blrb9v0pc5yfq].[none:PLACE OF THE INSTITUTION:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:NAME (IN CAPITAL):nk]</field>
+            <field>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:PLACE OF THE INSTITUTION:nk]</field>
+            <field>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:REASON FOR CHOOSING RVS ?:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{735E34D9-A9A4-48A7-8CB6-C2259D332532}' />
+    </window>
+    <window class='worksheet' name='Stream wise Next Step '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.03l768y13sgg481blrb9v0pc5yfq].[cnt:NAME (IN CAPITAL):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.03l768y13sgg481blrb9v0pc5yfq].[cnt:NAME (IN CAPITAL):qk]</field>
+            <field>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:NAME (IN CAPITAL):nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BAACFF68-F1BD-40EE-8B50-00BD58CA3D34}' />
+    </window>
+    <window class='worksheet' name='College Placement Rating'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='219'>
+            <card pane-specification-id='0' param='[federated.03l768y13sgg481blrb9v0pc5yfq].[pcto:cnt:NAME (IN CAPITAL):qk:2]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:NAME (IN CAPITAL):nk]</field>
+            <field>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:NEXT STEP:nk]</field>
+            <field>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:PLACE OF THE INSTITUTION:nk]</field>
+            <field>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:PLACEMENT PREFERENCE:nk]</field>
+            <field>[federated.03l768y13sgg481blrb9v0pc5yfq].[pcto:cnt:NAME (IN CAPITAL):qk:2]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6C9B88E2-1D67-4104-A919-4B5055EB1BEC}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Student Mindset Dashboard'>
+      <viewpoints>
+        <viewpoint name='Batch'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:BATCH:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='College Placement Rating'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Next Step by Gender'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:GENDER:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Place of the Institution'>
+          <highlight>
+            <color-one-way>
+              <field>[federated.03l768y13sgg481blrb9v0pc5yfq].[none:PLACE OF THE INSTITUTION:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Stream wise Next Step '>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{1DE222F6-907C-4F30-9CCF-53F003DB6645}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Batch' width='192'>
+      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
+      MdaQIHIRNAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='College Placement Rating' width='192'>
+      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
+      nPbZ4f8DLhzq+A4QfZ4AAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Next Step by Gender' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Place of the Institution' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAFaUlEQVR4nO3Zy24bZRyG8XfGHns8PqR2EoemSdOQJk1PCSriPrhKFlAqLoAFsENIiFPV
+      IhW1ShonLS2Nc/JhbA8LqioRiQSL2ov3+e1GHlv/b/F8c3CQZVkmwFQ46QGASSIAWMufPug+
+      /l29R48mNQswdmcC6D18qPYX9yc1CzB23ALBWv7CD+bmlPV6GqV95adnlG5tKUgShcWihu22
+      gkJBQRQpV78kjTKlz58rV69ruL+vaHFRQRxr0GopLJeVpalGR0eKri0pfb6jsFhUbnZW6fa2
+      sk5nnOsFzjg3gHyzqbBc1uDoSPGt2+o/e6rC6qrCuCiFocJ2TWG5oiCQssFQyoUKD2oqrK1q
+      0Gpp8OKFiuvrCsuJwmpVYTnR6KSjUftAxbVVZZ2u+k+fKkvTca8XOOPcW6CwVlO6u6tRt6vR
+      ybGGf75SGMeSpFGno7BUUhAEyoZD5ZuzylWrCpNEuVpN0dKSsjRVlqYKyxUN9vY0ePVaYZIo
+      3tzU6PBIQamk4o01BW9/E5iUc68A6daW4o27Snf3pEwqfXxPvSd/KN9o/LNrFyINT/YVFAoa
+      VTpSJoXVqo6//U75+ctSEGh0fKxBq6V4c0PZcKTBzo76z54pmp9X1u0oiCIp5BEEkxWc/ie4
+      /eUD3gLBClswrBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rOVPH+ysz+i3T9cnNQswdmcCeDzc01f9Hyc1CzB23ALB2rkBNJJpXZ9ZU7Myp2K+qKRQViFX
+      ULVYkyTNlGcVRyVFuYKiMJIkxflYpaikUlSSJNVLjXfnLly6KkkqRYnCIFQxH7/3hQH/xbkB
+      HHTbqsVTenPyl5anr2u5saJGMq2bc7c1FV/SvYVPdK2+rNlyU43ytCRpptLUrQ82tNT4UFEY
+      6c7lDTUrc7oytahu2tHq7A2tzKwqjkq6MrUw1kUCFzk3gMFooP6wr3SUamFqUYv1q5ICdQdd
+      LdaXtHfY+td3sixTu/NGjWRajfKMCrmilqdXNMyGen38Svm3VwpJyt7bcoD/58JngOP+sZKo
+      rF93f9YPW98rjmLt7G8rkHTYO9JJeqL+sK/lxooqxap6g56297eUC3JKCom+efK1Xh6+UC7I
+      6e78R9o7aGkwTHVz7rZeHu6NcYnAxYIsy95tyA9++Vz3f/pskvMAY8VbIFgjAFgjAFgjAFgj
+      AFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgj
+      AFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgj
+      AFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgjAFgj
+      AFgjAFgjAFgjAFgjAFgjAFgjAFgjAFjLnz5oVuZ05/LmpGYBxu5vl8MPxRCY0ZwAAAAASUVO
+      RK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Stream wise Next Step ' width='192'>
+      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
+      AQitSQBCa/8LGQJxbwUNF+EAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Student Mindset Dashboard' width='192'>
+      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
+      AABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
